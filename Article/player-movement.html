@@ -42,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
     {
         //Qui viene gestito l'input del giocatore per il movimento, in questo caso si usa il vecchio input system di unity.
         movement.x = Input.GetAxis("Horizontal");
-        movement.z = Input.GetAxis("Vertical");
+        movement.y = Input.GetAxis("Vertical");
 
         movement = movement.normalized;
     }
