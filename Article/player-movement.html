@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="../main.css">
+  <link rel="stylesheet" href="../articleStyle.css">
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet">
+  <title>Come Creare il Movimento del Player - Blog</title>
+</head>
+
+<body>
+  <div class="blog-article">
+
+    <h1>Player Movement 2D</h1>
+
+    <!--Spiegazione del movimento del player-->
+    <section>
+      <h2>Setup</h2>
+
+      <p>
+        Innanzitutto, inserisci nella scena un GameObject che rappresenti il player. Aggiungi un componente Rigidbody2D e un Collider2D (come BoxCollider2D o CircleCollider2D) al GameObject del player. Assicurati di impostare il Rigidbody2D su "Dynamic" e di abilitare la gravità se desideri che il player sia influenzato dalla fisica.
+      </p>
+
+      <pre><code class="language-csharp">using UnityEngine;
+
+public class PlayerMovement : MonoBehaviour
+{
+    public float moveSpeed = 5f;
+    private Rigidbody2D rb;
+    private Vector2 movement;
+
+    void Start() => rb = GetComponent&lt;Rigidbody2D&gt;();
+
+    void Update() => HandleInput();
+
+    void FixedUpdate() => Move(); 
+
+    void HandleInput()
+    {
+        //Qui viene gestito l'input del giocatore per il movimento, in questo caso si usa il vecchio input system di unity.
+        movement.x = Input.GetAxis("Horizontal");
+        movement.z = Input.GetAxis("Vertical");
+
+        movement = movement.normalized;
+    }
+
+    void Move()
+    {
+        rb.linearVelocity = movement * moveSpeed;
+    }
+}</code></pre>
+    </section>
+
+    <!--Spiegazione del FixedUpdate-->
+    <section>
+      <h2>Perchè viene Usato FixedUpdate per la fisica?</h2>
+
+      <p>
+        <span class="highlight">FixedUpdate()</span> viene eseguito a intervalli di tempo costanti definiti dal parametro <span class="highlight">Fixed Timestep</span> 
+        nelle Project Settings. Per impostazione predefinita 
+        viene chiamato ogni 0,02 secondi, cioè circa 50 volte al secondo, ma questo valore può essere modificato. Poiché il motore fisico di Unity viene aggiornato 
+        durante <span class="highlight">FixedUpdate()</span>, è buona pratica applicare qui tutte le operazioni che coinvolgono il <span class="highlight">Rigidbody2D()</span>, come l'assegnazione della velocità o l'applicazione di 
+        forze. <span class="highlight">Update()</span>, invece, viene eseguito una volta per ogni frame renderizzato. Di conseguenza, la sua frequenza dipende dagli FPS del gioco: a 60 FPS verrà 
+        chiamato circa 60 volte al secondo, mentre a 144 FPS circa 144 volte. Per questo motivo Update() è il posto ideale per leggere l'input del giocatore, mentre 
+        FixedUpdate() è quello corretto per applicare il movimento fisico.
+     </p>
+    </section>
+
+    <a href="../index.html" class="back-link">
+      Torna al Blog
+    </a>
+
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-csharp.min.js"></script>
+</body>
+</html>
