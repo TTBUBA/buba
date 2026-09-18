@@ -24,21 +24,24 @@
 .blog-article p {
   color: #ccc;
   margin-bottom: 15px;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .blog-article pre {
   background: #1e1e1e;
   border-radius: 8px;
-  padding: 16px;
+  padding: 20px;
   overflow-x: auto;
+
+  width: 100%;
+  box-sizing: border-box;
 }
 
-.blog-article code {
+.blog-article pre code {
   font-family: Consolas, Monaco, monospace;
   font-size: 14px;
+  line-height: 1.5;
 }
-
 
 .back-link {
   display: inline-block;
@@ -54,8 +57,14 @@
 }
 
 .title-WorkinProgress{
-      color: #fffb00;
+    color: #fffb00;
     font-weight: bold;
+}
+
+
+.Img_step{
+  width: 100%;
+  height: 100%;
 }
 
 @media screen and (max-width: 768px) {
