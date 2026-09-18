@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="../../main.css">
+  <link rel="stylesheet" href="../../articleStyle.css">
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet">
+  <title>Funzionamento rete Neurale - Blog</title>
+</head>
+
+<body>
+  <div class="blog-article">
+
+    <h1>Rete Neurale</h1>
+
+    <!--Spiegazione Neurone-->
+    <section>
+      <h2>1. Neuroni</h2>
+
+      <p>
+        Un neurone è l'unità base dove vengono ricevuti i vari input, ogni neurono è governato dal singolo ingresso                          
+      </p>
+
+<pre><code class="language-csharp">x1 (w1) -> 
+x2 (w3) -> Somma + bias -> attivazione -> uscita
+x3 (w3) -> 
+</code></pre>
+    </section>
+
+    <!--Spiegazione Pesi e Bias-->
+    <section>
+      <h2>2. Pesi e Bias</h2>
+
+      <p>
+        Ogni connessione ha un peso. Un peso maggiore di solito significa che l'input ha un valore più forte influenza il risultato del neurone. è una costante che si aggiunge al calcolo per rendere il modello più
+        flessibile
+     </p>
+
+<pre><code class="language-csharp">z = (w1*x1) + (w2*x2) + (w3*x3) + b
+output = activation(z)
+</code></pre>
+    </section>
+
+    <!--Spiegazione Layer-->
+    <section>
+      <h2>3. Layer</h2>
+
+      <p>
+        1.Input Layer <span class="highlight">(strati di ingresso)</span>: Qui la rete ricevere i dati di input, ogni neurone input corrisponde ad una caratteristica nei vari dati di input.
+      </p>
+      <p>
+        2.Hidden Layers <span class="highlight">(strati nascosti)</span>: Sono il cuore della rete neurale, si trovano tra
+        input è output. Qui avviene l’elaborazione del sistema. sarebbe una sorta di
+        catena 
+      </p>
+      <p>
+        3.Weight e bias: Ogni singola connessione che si ha con i neuroni ha un valore
+        chiamato Weight, il peso determina quanto una certa informazione è importante per
+        avere output. 
+        <p>
+          ● Weight: più alto è, più quel determinato input influisce sulla decisione finale.
+        </p>
+        <p>
+          ● Bios: è una costante che si aggiunge al calcolo per rendere il modello più flessibile
+        </p>
+      </p>
+    </section>
+
+    <!--Spiegazione Esempio classificazione immagine-->
+    <section>
+      <h2>4. Output layer</h2>
+
+       <p>
+         Sarebbe lo strato finale dove viene prodotto il risultato, però non
+         viene sempre fornita una risposta secca.
+      </p>
+<pre><code class="language-csharp">bear: 0.80
+wolf: 0.20
+</code></pre>
+
+      <p>
+            La rete non dirà che nell’immagine c'è un orso ma dirà, è probabile che sia un orso
+      </p>
+    </section>
+
+    <!--Spiegazione Funzioni di attivazioni-->
+    <section>
+      <h2>5. Funzioni di attivazioni</h2>
+       <p>
+         Senza di esso la rete neurale sarebbe abbastanza lineare,
+         quindi molto limitata. La funzione di attivazione serve per introdurre non linearità, cioè
+         la capacità di apprendere “argomenti” più complessi.
+      </p>
+<pre><code class="language-csharp">ReLu(x) = max(0,x)
+Sigmoid = value between (0,1)
+</code></pre>
+
+      <p>
+         ● Sigmoid: ovvero restituisce valori che vanno da 0 a 1
+      </p>
+      <p>
+         ● ReLu: se il valore è negativo riporta quel valore a 0, invece se il valore è positivo
+         non cambia rimane così com'è
+      </p>
+    </section>
+
+    <a href="../../index.html" class="back-link">
+      Torna al Blog
+    </a>
+
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-csharp.min.js"></script>
+</body>
+</html>
