@@ -1,9 +1,0 @@
-Inserisci qui i tuoi file PDF.
-
-La cartella viene analizzata dallo script scripts/build_catalog.py.
-Dopo aver aggiunto o rimosso PDF, esegui:
-
-    python scripts/build_catalog.py
-
-Il catalogo library/books.json verrà rigenerato automaticamente.
-I PDF devono essere inclusi nella repository per essere pubblicati da GitHub Pages.
