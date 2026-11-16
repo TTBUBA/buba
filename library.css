@@ -1,0 +1,126 @@
+/* Library: mantiene il sistema visivo originale di BUBA */
+.library-intro,
+.library-tools,
+.book-entry {
+  border: 1px solid var(--border);
+  background: var(--surface);
+}
+
+.library-intro {
+  margin-top: 30px;
+  padding: 22px 20px;
+}
+
+.library-intro .eyebrow {
+  color: #888;
+  font-size: .78rem;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+
+.library-intro h2 {
+  color: var(--title);
+  font-size: 2rem;
+  font-weight: normal;
+  margin-bottom: 8px;
+}
+
+.library-intro p:last-child {
+  color: var(--text);
+}
+
+.library-tools {
+  margin-top: 18px;
+  padding: 18px 20px;
+}
+
+.search-label {
+  display: block;
+  color: var(--title);
+  margin-bottom: 9px;
+}
+
+#book-search {
+  display: block;
+  width: 100%;
+  border: 1px solid var(--border);
+  background: #111;
+  color: var(--title);
+  padding: 12px;
+  font: inherit;
+  outline: none;
+}
+
+#book-search:focus {
+  border-color: #888;
+}
+
+.library-status {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 10px;
+  color: #888;
+  font-size: .9rem;
+}
+
+.book-list {
+  margin-top: 18px;
+}
+
+.book-entry {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 18px 20px;
+  margin-bottom: 12px;
+}
+
+.book-entry h3 {
+  color: var(--title);
+  font-size: 1.25rem;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+.book-entry p {
+  color: #999;
+  font-size: .9rem;
+}
+
+.book-open {
+  display: inline-block;
+  flex: 0 0 auto;
+  border: 1px solid var(--border);
+  padding: 8px 13px;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.book-open:hover,
+.book-open:focus {
+  background: #292929;
+  color: #fff;
+}
+
+.empty-state {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: #aaa;
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  .book-entry {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .book-open {
+    width: 100%;
+    text-align: center;
+  }
+  .library-status {
+    flex-direction: column;
+  }
+}

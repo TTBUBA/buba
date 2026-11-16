@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BUBA - PDF Reader</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="reader.css">
+</head>
+<body class="reader-page">
+  <header class="reader-header">
+    <a href="library.html">← LIBRARY</a>
+    <h1 id="reader-title">PDF Reader</h1>
+  </header>
+
+  <main class="reader-main">
+    <div class="reader-toolbar">
+      <button id="previous-page" type="button">←</button>
+      <span>Pagina <strong id="page-number">1</strong> / <strong id="page-count">—</strong></span>
+      <button id="next-page" type="button">→</button>
+      <span class="toolbar-spacer"></span>
+      <button id="zoom-out" type="button" aria-label="Riduci zoom">−</button>
+      <span id="zoom-level">100%</span>
+      <button id="zoom-in" type="button" aria-label="Aumenta zoom">+</button>
+    </div>
+    <div id="reader-message" class="reader-message">Caricamento documento...</div>
+    <div class="pdf-stage">
+      <canvas id="pdf-canvas"></canvas>
+    </div>
+  </main>
+
+  <script type="module" src="reader.js"></script>
+</body>
+</html>
