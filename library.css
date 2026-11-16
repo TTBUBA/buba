@@ -1,7 +1,7 @@
 /* Library: mantiene il sistema visivo originale di BUBA */
 .library-intro,
 .library-tools,
-.book-entry {
+.folder-section {
   border: 1px solid var(--border);
   background: var(--surface);
 }
@@ -25,9 +25,7 @@
   margin-bottom: 8px;
 }
 
-.library-intro p:last-child {
-  color: var(--text);
-}
+.library-intro p:last-child { color: var(--text); }
 
 .library-tools {
   margin-top: 18px;
@@ -51,9 +49,7 @@
   outline: none;
 }
 
-#book-search:focus {
-  border-color: #888;
-}
+#book-search:focus { border-color: #888; }
 
 .library-status {
   display: flex;
@@ -64,30 +60,84 @@
   font-size: .9rem;
 }
 
-.book-list {
-  margin-top: 18px;
+.book-list { margin-top: 18px; }
+
+.folder-section {
+  margin-bottom: 10px;
 }
+
+.folder-section .folder-section {
+  margin: 0 0 9px;
+  background: #151515;
+}
+
+.folder-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 14px 18px;
+  color: var(--title);
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+}
+
+.folder-summary::-webkit-details-marker { display: none; }
+.folder-summary::before {
+  content: '▸';
+  color: #999;
+  margin-right: 2px;
+  transition: transform .15s ease;
+}
+.folder-section[open] > .folder-summary::before { transform: rotate(90deg); }
+.folder-name {
+  flex: 1;
+  font-size: 1.15rem;
+}
+.folder-name::before {
+  content: '📁';
+  font-size: .95rem;
+  margin-right: 10px;
+}
+.folder-count {
+  color: #888;
+  font-size: .82rem;
+  white-space: nowrap;
+}
+
+.folder-contents {
+  padding: 0 12px 12px 25px;
+}
+
+.folder-contents > .folder-section { margin-top: 8px; }
 
 .book-entry {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  padding: 18px 20px;
-  margin-bottom: 12px;
+  padding: 14px 16px;
+  margin-top: 8px;
+  border: 1px solid var(--border);
+  background: #111;
 }
 
 .book-entry h3 {
   color: var(--title);
-  font-size: 1.25rem;
+  font-size: 1.05rem;
   font-weight: normal;
   margin-bottom: 5px;
+  overflow-wrap: anywhere;
 }
 
-.book-entry p {
+.book-entry h3::before {
+  content: '▤';
   color: #999;
-  font-size: .9rem;
+  margin-right: 9px;
 }
+
+.book-entry p { color: #999; font-size: .85rem; }
 
 .book-open {
   display: inline-block;
@@ -99,11 +149,9 @@
 }
 
 .book-open:hover,
-.book-open:focus {
-  background: #292929;
-  color: #fff;
-}
+.book-open:focus { background: #292929; color: #fff; }
 
+.folder-empty,
 .empty-state {
   border: 1px solid var(--border);
   background: var(--surface);
@@ -111,16 +159,16 @@
   padding: 20px;
 }
 
+.folder-empty {
+  margin-top: 8px;
+  border-style: dashed;
+  background: transparent;
+}
+
 @media (max-width: 600px) {
-  .book-entry {
-    align-items: flex-start;
-    flex-direction: column;
-  }
-  .book-open {
-    width: 100%;
-    text-align: center;
-  }
-  .library-status {
-    flex-direction: column;
-  }
+  .book-entry { align-items: flex-start; flex-direction: column; }
+  .book-open { width: 100%; text-align: center; }
+  .library-status { flex-direction: column; }
+  .folder-contents { padding-left: 12px; padding-right: 8px; }
+  .folder-summary { padding: 13px 12px; }
 }

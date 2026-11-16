@@ -2,6 +2,7 @@
   {
     "id": "library-pdf-crittografia-crittografia-2-pdf",
     "title": "Crittografia 2",
+    "filename": "Crittografia_2.pdf",
     "author": "",
     "category": "",
     "path": "library/pdf/Crittografia/Crittografia_2.pdf"
@@ -9,6 +10,7 @@
   {
     "id": "library-pdf-crittografia-indroduzione-crittografia-pdf",
     "title": "Indroduzione Crittografia",
+    "filename": "Indroduzione-crittografia.pdf",
     "author": "",
     "category": "",
     "path": "library/pdf/Crittografia/Indroduzione-crittografia.pdf"
@@ -16,6 +18,7 @@
   {
     "id": "library-pdf-engine-2dog-2dog-0-6-manuale-completo-pdf",
     "title": "2Dog 0.6 Manuale Completo",
+    "filename": "2Dog_0.6_Manuale_completo.pdf",
     "author": "",
     "category": "",
     "path": "library/pdf/Engine_2Dog/2Dog_0.6_Manuale_completo.pdf"
@@ -23,6 +26,7 @@
   {
     "id": "library-pdf-engine-2dog-2dog-manuale-csharp-pdf",
     "title": "2Dog Manuale Csharp",
+    "filename": "2Dog_Manuale_CSharp.pdf",
     "author": "",
     "category": "",
     "path": "library/pdf/Engine_2Dog/2Dog_Manuale_CSharp.pdf"
@@ -30,6 +34,7 @@
   {
     "id": "library-pdf-gamedev-artificial-intelligence-for-games-pdf",
     "title": "Artificial Intelligence For Games",
+    "filename": "Artificial Intelligence For Games.pdf",
     "author": "",
     "category": "",
     "path": "library/pdf/GameDev/Artificial Intelligence For Games.pdf"
@@ -37,6 +42,7 @@
   {
     "id": "library-pdf-gamedev-visualizing-equations-essential-math-for-game-devs-pdf",
     "title": "Visualizing Equations Essential Math For Game Devs",
+    "filename": "Visualizing Equations Essential Math for Game Devs.pdf",
     "author": "",
     "category": "",
     "path": "library/pdf/GameDev/Visualizing Equations Essential Math for Game Devs.pdf"
@@ -44,6 +50,7 @@
   {
     "id": "library-pdf-learn-elettrotecnica-elettrotecnica-elettronica-vol-3-pdf",
     "title": "Elettrotecnica Elettronica Vol 3",
+    "filename": "elettrotecnica-elettronica-Vol-3.pdf",
     "author": "",
     "category": "",
     "path": "library/pdf/Learn/Elettrotecnica/elettrotecnica-elettronica-Vol-3.pdf"
@@ -51,6 +58,7 @@
   {
     "id": "library-pdf-learn-elettrotecnica-elettrotecnica-elettronica-vol-2-pdf",
     "title": "Elettrotecnica Elettronica Vol 2",
+    "filename": "elettrotecnica-elettronica_Vol-2.pdf",
     "author": "",
     "category": "",
     "path": "library/pdf/Learn/Elettrotecnica/elettrotecnica-elettronica_Vol-2.pdf"
@@ -58,6 +66,7 @@
   {
     "id": "library-pdf-learn-elettrotecnica-motore-asincrono-trifase-pdf",
     "title": "Motore Asincrono Trifase",
+    "filename": "Motore_Asincrono_Trifase.pdf",
     "author": "",
     "category": "",
     "path": "library/pdf/Learn/Elettrotecnica/Motore_Asincrono_Trifase.pdf"
@@ -65,6 +74,7 @@
   {
     "id": "library-pdf-learn-elettrotecnica-prova-2010-elettrotecnica-pdf",
     "title": "Prova 2010 Elettrotecnica",
+    "filename": "prova_2010_elettrotecnica.pdf",
     "author": "",
     "category": "",
     "path": "library/pdf/Learn/Elettrotecnica/prova_2010_elettrotecnica.pdf"
@@ -72,6 +82,7 @@
   {
     "id": "library-pdf-learn-math-derivata-di-un-prodotto-di-due-funzionecon-esercizi-da-svolgere-pdf",
     "title": "Derivata Di Un Prodotto Di Due Funzionecon Esercizi Da Svolgere",
+    "filename": "Derivata_di_un_prodotto_di_due_funzionecon_Esercizi_da_svolgere.pdf",
     "author": "",
     "category": "",
     "path": "library/pdf/Learn/Math/Derivata_di_un_prodotto_di_due_funzionecon_Esercizi_da_svolgere.pdf"
@@ -79,6 +90,7 @@
   {
     "id": "library-pdf-learn-math-esercizi-probabile-di-una-funzioni-pdf",
     "title": "Esercizi Probabile Di Una Funzioni",
+    "filename": "Esercizi_probabile_di_una_funzioni.pdf",
     "author": "",
     "category": "",
     "path": "library/pdf/Learn/Math/Esercizi_probabile_di_una_funzioni.pdf"
@@ -86,6 +98,7 @@
   {
     "id": "library-pdf-learn-math-guida-completa-precorso-matematica-unical-pdf",
     "title": "Guida Completa Precorso Matematica Unical",
+    "filename": "Guida Completa Precorso Matematica UNICAL.pdf",
     "author": "",
     "category": "",
     "path": "library/pdf/Learn/Math/Guida Completa Precorso Matematica UNICAL.pdf"
@@ -93,6 +106,7 @@
   {
     "id": "library-pdf-learn-math-guida-trigonometria-analisi-1-pdf",
     "title": "Guida Trigonometria Analisi 1",
+    "filename": "Guida_trigonometria_Analisi_1.pdf",
     "author": "",
     "category": "",
     "path": "library/pdf/Learn/Math/Guida_trigonometria_Analisi_1.pdf"
@@ -100,6 +114,7 @@
   {
     "id": "library-pdf-learn-math-scheda-sul-comportamento-grafico-pdf",
     "title": "Scheda Sul Comportamento Grafico",
+    "filename": "Scheda_sul_comportamento_grafico.pdf",
     "author": "",
     "category": "",
     "path": "library/pdf/Learn/Math/Scheda_sul_comportamento_grafico.pdf"
@@ -107,6 +122,7 @@
   {
     "id": "library-pdf-learn-tpsee-cabine-mt-bt-pdf",
     "title": "Cabine Mt Bt",
+    "filename": "Cabine_MT_BT.pdf",
     "author": "",
     "category": "",
     "path": "library/pdf/Learn/Tpsee/Cabine_MT_BT.pdf"
@@ -114,6 +130,7 @@
   {
     "id": "library-pdf-learn-tpsee-prova-esame-2026-pdf",
     "title": "Prova Esame 2026",
+    "filename": "Prova_Esame_2026.pdf",
     "author": "",
     "category": "",
     "path": "library/pdf/Learn/Tpsee/Prova_Esame_2026.pdf"
@@ -121,6 +138,7 @@
   {
     "id": "library-pdf-leggere-per-sapere-4-alessandro-de-concini-pdf",
     "title": "Leggere Per Sapere 4 Alessandro De Concini",
+    "filename": "Leggere per sapere 4- Alessandro de Concini.pdf",
     "author": "",
     "category": "",
     "path": "library/pdf/Leggere per sapere 4- Alessandro de Concini.pdf"
@@ -128,6 +146,7 @@
   {
     "id": "library-pdf-manuale-di-criminologia-e-tecniche-investigative-pdf",
     "title": "Manuale Di Criminologia E Tecniche Investigative",
+    "filename": "MANUALE DI CRIMINOLOGIA E TECNICHE INVESTIGATIVE.pdf",
     "author": "",
     "category": "",
     "path": "library/pdf/MANUALE DI CRIMINOLOGIA E TECNICHE INVESTIGATIVE.pdf"
@@ -135,6 +154,7 @@
   {
     "id": "library-pdf-manuale-game-design-seconda-edizione-pdf",
     "title": "Manuale Game Design Seconda Edizione",
+    "filename": "Manuale_Game_Design_Seconda_Edizione.pdf",
     "author": "",
     "category": "",
     "path": "library/pdf/Manuale_Game_Design_Seconda_Edizione.pdf"
@@ -142,6 +162,7 @@
   {
     "id": "library-pdf-programming-clean-code-book-pdf",
     "title": "Clean.Code.Book",
+    "filename": "Clean.Code.Book.pdf",
     "author": "",
     "category": "",
     "path": "library/pdf/Programming/Clean.Code.Book.pdf"
@@ -149,6 +170,7 @@
   {
     "id": "library-pdf-programming-introduction-to-algorithms-4th-pdf",
     "title": "Introduction.To.Algorithms.4Th",
+    "filename": "Introduction.to.Algorithms.4th.pdf",
     "author": "",
     "category": "",
     "path": "library/pdf/Programming/Introduction.to.Algorithms.4th.pdf"
@@ -156,6 +178,7 @@
   {
     "id": "library-pdf-programming-real-timecollisiondetection-pdf",
     "title": "Real Timecollisiondetection",
+    "filename": "Real-timeCollisionDetection.pdf",
     "author": "",
     "category": "",
     "path": "library/pdf/Programming/Real-timeCollisionDetection.pdf"
@@ -163,6 +186,7 @@
   {
     "id": "library-pdf-programming-sistemi-operativi-concetti-ed-esempi-pdf",
     "title": "Sistemi Operativi Concetti Ed Esempi",
+    "filename": "Sistemi_operativi_concetti_ed_esempi.pdf",
     "author": "",
     "category": "",
     "path": "library/pdf/Programming/Sistemi_operativi_concetti_ed_esempi.pdf"
@@ -170,6 +194,7 @@
   {
     "id": "library-pdf-programming-tutorial-c-pdf-pdf",
     "title": "Tutorial C# Pdf",
+    "filename": "TUTORIAL C# PDF.pdf",
     "author": "",
     "category": "",
     "path": "library/pdf/Programming/TUTORIAL C# PDF.pdf"
@@ -177,6 +202,7 @@
   {
     "id": "library-pdf-the-art-of-computer-programming-volume1-pdf",
     "title": "Volume1",
+    "filename": "Volume1.pdf",
     "author": "",
     "category": "",
     "path": "library/pdf/The-Art-of-Computer-Programming/Volume1.pdf"
@@ -184,6 +210,7 @@
   {
     "id": "library-pdf-the-art-of-computer-programming-volume2-pdf",
     "title": "Volume2",
+    "filename": "Volume2.pdf",
     "author": "",
     "category": "",
     "path": "library/pdf/The-Art-of-Computer-Programming/Volume2.pdf"
@@ -191,6 +218,7 @@
   {
     "id": "library-pdf-the-art-of-computer-programming-volume3-pdf",
     "title": "Volume3",
+    "filename": "Volume3.pdf",
     "author": "",
     "category": "",
     "path": "library/pdf/The-Art-of-Computer-Programming/Volume3.pdf"
@@ -198,6 +226,7 @@
   {
     "id": "library-pdf-the-art-of-computer-programming-volume4a-pdf",
     "title": "Volume4A",
+    "filename": "Volume4a.pdf",
     "author": "",
     "category": "",
     "path": "library/pdf/The-Art-of-Computer-Programming/Volume4a.pdf"
@@ -205,6 +234,7 @@
   {
     "id": "library-pdf-unity-debug-system-antipixel-unity-documentation-pdf",
     "title": "Debug System Antipixel Unity Documentation",
+    "filename": "Debug System Antipixel Unity Documentation.pdf",
     "author": "",
     "category": "",
     "path": "library/pdf/Unity/Debug System Antipixel Unity Documentation.pdf"
@@ -212,6 +242,7 @@
   {
     "id": "library-pdf-unity-ultimate-guide-to-profiling-unity-games-unity-6-pdf",
     "title": "Ultimate Guide To Profiling Unity Games Unity 6",
+    "filename": "Ultimate_guide_to_profiling_Unity_games_Unity_6.pdf",
     "author": "",
     "category": "",
     "path": "library/pdf/Unity/Ultimate_guide_to_profiling_Unity_games_Unity_6.pdf"
@@ -219,6 +250,7 @@
   {
     "id": "library-pdf-unity-unity-2017-game-ai-programming-pdf",
     "title": "Unity 2017 Game Ai Programming",
+    "filename": "Unity 2017 Game AI Programming.pdf",
     "author": "",
     "category": "",
     "path": "library/pdf/Unity/Unity 2017 Game AI Programming.pdf"
@@ -226,6 +258,7 @@
   {
     "id": "library-pdf-unity-writingcleanercode-unity-pdf",
     "title": "Writingcleanercode Unity",
+    "filename": "WritingCleanerCode_Unity.pdf",
     "author": "",
     "category": "",
     "path": "library/pdf/Unity/WritingCleanerCode_Unity.pdf"

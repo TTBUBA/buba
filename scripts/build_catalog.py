@@ -22,6 +22,7 @@ def main():
         books.append({
             "id": book_id,
             "title": title_from_filename(pdf),
+            "filename": pdf.name,
             "author": "",
             "category": "",
             "path": relative

@@ -1,10 +1,10 @@
 # BUBA Library
 
-La Library aggiunge una raccolta PDF al sito BUBA mantenendo il layout originale.
+La Library riproduce la gerarchia reale delle directory presenti in `library/pdf/`: cartelle e sottocartelle vengono mostrate come sezioni espandibili e ogni PDF compare nella propria posizione. I nomi dei file vengono mantenuti esattamente come nella directory.
 
 ## Aggiungere PDF
 
-1. Copia i file PDF dentro `library/pdf/` (sono supportate anche le sottocartelle).
+1. Copia i file PDF dentro `library/pdf/`, organizzandoli nelle cartelle e sottocartelle che preferisci.
 2. Dalla cartella principale del progetto esegui:
 
    ```bash
@@ -13,7 +13,7 @@ La Library aggiunge una raccolta PDF al sito BUBA mantenendo il layout originale
 
 3. Pubblica su GitHub Pages anche i PDF e il file `library/books.json`.
 
-La pagina `library.html` legge il catalogo JSON. Il lettore `reader.html` apre il PDF tramite il suo percorso relativo nel repository. Non viene richiesto di caricare i documenti su servizi esterni.
+Lo script esplora ricorsivamente la directory e salva nel catalogo il percorso relativo e il nome originale di ogni PDF. La pagina `library.html` ricostruisce da questi percorsi l'albero delle cartelle; non serve creare manualmente le cartelle nel sito.
 
 ## Avvio locale
 
