@@ -42,13 +42,6 @@
     "path": "library/pdf/GameDev/Visualizing Equations Essential Math for Game Devs.pdf"
   },
   {
-    "id": "library-pdf-how-works-neural-network-pdf",
-    "title": "How Works Neural Network",
-    "author": "",
-    "category": "",
-    "path": "library/pdf/How works neural network.pdf"
-  },
-  {
     "id": "library-pdf-learn-elettrotecnica-elettrotecnica-elettronica-vol-3-pdf",
     "title": "Elettrotecnica Elettronica Vol 3",
     "author": "",
@@ -84,55 +77,6 @@
     "path": "library/pdf/Learn/Math/Derivata_di_un_prodotto_di_due_funzionecon_Esercizi_da_svolgere.pdf"
   },
   {
-    "id": "library-pdf-learn-math-derivate-esempio-del-calcolo-dei-punti-di-minimo-e-massimo-di-una-funzione-razionale-intera-pdf",
-    "title": "Esempio Del Calcolo Dei Punti Di Minimo E Massimo Di Una Funzione Razionale Intera",
-    "author": "",
-    "category": "",
-    "path": "library/pdf/Learn/Math/Derivate/Esempio_ del_ calcolo_ dei_ punti_ di_ minimo_ e_ massimo_ di_ una_ funzione_ razionale_ intera.pdf"
-  },
-  {
-    "id": "library-pdf-learn-math-derivate-esercizi-calcolo-della-retta-tangente-in-un-punto-di-una-funzione-con-la-derivata-pdf",
-    "title": "Esercizi Calcolo Della Retta Tangente In Un Punto Di Una Funzione Con La Derivata",
-    "author": "",
-    "category": "",
-    "path": "library/pdf/Learn/Math/Derivate/Esercizi_calcolo_della_retta_tangente_in_un_punto_di_una_funzione_con_la_derivata.pdf"
-  },
-  {
-    "id": "library-pdf-learn-math-derivate-esercizi-sulle-derivate-pdf",
-    "title": "Esercizi Sulle Derivate",
-    "author": "",
-    "category": "",
-    "path": "library/pdf/Learn/Math/Derivate/Esercizi_sulle_derivate.pdf"
-  },
-  {
-    "id": "library-pdf-learn-math-derivate-scheda-esempio-svolto-sul-calcolo-dei-punti-di-minimo-pdf",
-    "title": "Scheda Esempio Svolto Sul Calcolo Dei Punti Di Minimo",
-    "author": "",
-    "category": "",
-    "path": "library/pdf/Learn/Math/Derivate/Scheda_ esempio_ svolto_ sul_ calcolo_ dei_ punti_ di_ minimo.pdf"
-  },
-  {
-    "id": "library-pdf-learn-math-derivate-scheda-derivate-funzione-pdf",
-    "title": "Scheda Derivate Funzione",
-    "author": "",
-    "category": "",
-    "path": "library/pdf/Learn/Math/Derivate/Scheda_Derivate_funzione.pdf"
-  },
-  {
-    "id": "library-pdf-learn-math-derivate-scheda-riassuntiva-sui-fondamentali-della-derivata-pdf",
-    "title": "Scheda Riassuntiva Sui Fondamentali Della Derivata",
-    "author": "",
-    "category": "",
-    "path": "library/pdf/Learn/Math/Derivate/Scheda_riassuntiva_sui_fondamentali_della_derivata.pdf"
-  },
-  {
-    "id": "library-pdf-learn-math-derivate-scheda-teorica-puntistazionari-funzioni-tangenti-pdf",
-    "title": "Scheda Teorica Puntistazionari Funzioni Tangenti",
-    "author": "",
-    "category": "",
-    "path": "library/pdf/Learn/Math/Derivate/Scheda_teorica_puntistazionari-funzioni_tangenti.pdf"
-  },
-  {
     "id": "library-pdf-learn-math-esercizi-probabile-di-una-funzioni-pdf",
     "title": "Esercizi Probabile Di Una Funzioni",
     "author": "",
@@ -152,27 +96,6 @@
     "author": "",
     "category": "",
     "path": "library/pdf/Learn/Math/Guida_trigonometria_Analisi_1.pdf"
-  },
-  {
-    "id": "library-pdf-learn-math-integrali-regole-integrali-indefiniti-pdf",
-    "title": "Regole Integrali Indefiniti",
-    "author": "",
-    "category": "",
-    "path": "library/pdf/Learn/Math/Integrali/Regole_Integrali_indefiniti.pdf"
-  },
-  {
-    "id": "library-pdf-learn-math-integrali-scheda-riassuntiva-sugli-integrali-definiti-calcolo-delle-aree-pdf",
-    "title": "Scheda Riassuntiva Sugli Integrali Definiti Calcolo Delle Aree",
-    "author": "",
-    "category": "",
-    "path": "library/pdf/Learn/Math/Integrali/Scheda_riassuntiva_sugli_integrali_definiti_calcolo_delle_aree.pdf"
-  },
-  {
-    "id": "library-pdf-learn-math-limiti-scheda-sul-calcolo-dei-limiti-pdf",
-    "title": "Scheda Sul Calcolo Dei Limiti",
-    "author": "",
-    "category": "",
-    "path": "library/pdf/Learn/Math/Limiti/scheda_sul_calcolo_dei_limiti.pdf"
   },
   {
     "id": "library-pdf-learn-math-scheda-sul-comportamento-grafico-pdf",
